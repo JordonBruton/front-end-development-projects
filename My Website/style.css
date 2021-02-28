@@ -1,4 +1,3 @@
-
 body {
    background-color: lightgrey;
 }
@@ -15,13 +14,26 @@ body {
     padding-bottom: 25px;
     width: auto;
     background-color: salmon;
+    animation: show-self 2s ease-in;
+}
+@keyframes show-self {
+    0% {
+        transform: translateX(100%);
+    }
 }
 .bottom-side {
     height: 10px;
     padding-bottom: 50px;
     width: auto;
     background-color: salmon;
+    animation: slide-self 2s ease-in;
 }
+@keyframes slide-self {
+    0% {
+        transform: translateX(-100%);
+    }
+}
+
 h1 {
     position: absolute;
     top: 50%;
@@ -37,11 +49,40 @@ h1 {
     top: 20%;
     border-top: solid;
     border-color: salmon;
+    animation: show-in1 2s ease-in;
+}
+@keyframes show-in1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 #web {
     height: auto;
     width: auto;
     bottom: -20%;
+    animation: show-in2 3s ease-in;
+}
+@keyframes show-in2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#development {
+    animation: show-in3 4s ease-in ;
+}
+@keyframes show-in3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 nav a {
     text-decoration: none;
@@ -51,12 +92,19 @@ nav {
     position: relative;
     padding-top: 30%;
 }
+
 ul {
     width: auto;
 }
 li{
     display: inline-block;
     padding: 2%;
+    animation: under-show 2s ease-in;
+}
+@keyframes under-show {
+    0% {
+        transform: translateY(100%);
+    }
 }
 li a {
     color: salmon;
