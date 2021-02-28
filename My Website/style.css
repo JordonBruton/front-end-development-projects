@@ -1,0 +1,78 @@
+
+body {
+   background-color: lightgrey;
+}
+#left-img {
+    height: 250px;
+    float: left;
+}
+#right-img {
+    height: 250px;
+    float: right;
+}
+.top-side {
+    height: 10px;
+    padding-bottom: 25px;
+    width: auto;
+    background-color: salmon;
+}
+.bottom-side {
+    height: 10px;
+    padding-bottom: 50px;
+    width: auto;
+    background-color: salmon;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    display: block;
+    color: lightseagreen;
+    font-family: 'Anton', sans-serif;
+    
+}
+#jojo {
+    top: 20%;
+    border-top: solid;
+    border-color: salmon;
+}
+#web {
+    height: auto;
+    width: auto;
+    bottom: -20%;
+}
+nav a {
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+    position: relative;
+    padding-top: 30%;
+}
+ul {
+    width: auto;
+}
+li{
+    display: inline-block;
+    padding: 2%;
+}
+li a {
+    color: salmon;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    border-bottom: solid;
+
+}
+li a:hover {
+    
+    background-color: lightseagreen;
+    
+}
+
+
+
+
+

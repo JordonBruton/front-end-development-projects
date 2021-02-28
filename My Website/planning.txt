@@ -1,0 +1,10 @@
+Homepage
+
+prev-project page
+	- projects i've done in the past
+about me page
+	- name, credability, born, age, hobbies?
+contact
+
+idea:
+	animate website creation
